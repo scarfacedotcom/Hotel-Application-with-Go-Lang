@@ -8,7 +8,7 @@ import (
 
 func main() {
 	const hotelName = "Scar Face Hotel"
-	const totalRooms = 134
+	const totalRooms = 125
 	const firstRoomNumber = 110
 	rand.Seed(time.Now().UTC().UnixNano())
 	roomsOccupied := rand.Intn(totalRooms)
